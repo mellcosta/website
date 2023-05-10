@@ -1,0 +1,84 @@
+/* reset.css */
+
+/* Definir a aparência do conteúdo como border-box */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remover margens e preenchimento padrão para todos os elementos */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Definir estilos padrão para elementos de cabeçalho */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+/* Remover decoração de link padrão */
+a {
+  text-decoration: none;
+}
+
+/* Definir estilos padrão para elementos de lista */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Definir estilos padrão para elementos de mídia incorporados */
+img,
+video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Limpar estilos padrão para elementos de formulário */
+input,
+textarea,
+button,
+select {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+  outline: none;
+  appearance: none;
+}
+
+/* Definir a cor do texto como herança */
+body {
+  color: inherit;
+}
+
+/* Definir uma largura máxima para garantir a responsividade */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
