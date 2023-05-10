@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Instituto Médio Politécnico "José Francisco Republicano"</title>
   <link rel="stylesheet" href="./assets/reset.css">
-  <link rel="stylesheet" href="./assets/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
   <header>
@@ -14,8 +14,9 @@
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand d-flex align-items-center" href="#">
           <img src="../public/logo.png" alt="Logo da instituição" class="mr-2">
-          <span class="institution-name">IMP-JFR</span>
-        </a>
+          <span class="institution-name font-weight-bold">IMP-</span>
+          <span class="institution-name text-primary font-weight-bold">JFR</span>
+        </a>        
         
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -23,20 +24,20 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Página inicial</a>
+              <a class="nav-link text-dark font-weight-semibold" href="#">Página inicial</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Cursos</a>
+              <a class="nav-link text-dark font-weight-semibold" href="#">Cursos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pautas</a>
+              <a class="nav-link text-dark font-weight-semibold" href="#">Pautas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contato</a>
+              <a class="nav-link text-dark font-weight-semibold" href="#">Contato</a>
             </li>
           </ul>
-          <a href="#" class="btn btn-primary ml-lg-3">Comunicados</a>
-        </div>
+          <a href="#" class="btn btn-primary ml-lg-3 rounded-pill">Comunicados</a>
+        </div>       
       </nav>
     </div>
   
@@ -59,13 +60,13 @@
           <div class="col-md-6">
             <h2>Sobre a Instituição</h2>
             <p>O Instituto Médio Politécnico "José Francisco Republicano" é uma instituição de ensino técnico que oferece cursos em diversas áreas. Localizado em Namibe, Tômbwa, Bairro 08 de Dezembro, a escola tem como patrono José Francisco Republicano, um homem de trajetória inspiradora...</p>
-            <a href="#" class="btn btn-primary">Ver mais</a>
+            <a href="#" class="btn btn-primary rounded-pill">Ver mais</a>
           </div>
         </div>
       </section>
       <section class="galeria">
         <h1>Veja tudo de perto explorando a nossa galeria</h1>
-        <a href="#" class="btn btn-primary">Ver galeria</a>
+        <a href="#" class="btn btn-primary rounded-pill">Ver galeria</a>
       </section>
     </div>
     <div class="container cursos">
@@ -115,7 +116,7 @@
         <div class="col-md-6">
           <div class="text">
             <p>José Francisco Republicano, nascido a 5 de Outubro de 1910, em Porto Alexandre, atualmente Tômbwa, Filho de José Inácio e de Delfina Helena, Pescador de Profissão. Até a sua morte em Junho de 2000, foi um ancião digno de referência e respeito pela sua trajetória de vida...</p>
-            <a href="#" class="btn btn-primary">Ver Galeria</a>
+            <a href="#" class="btn btn-primary rounded-pill">Ver Galeria</a>
           </div>
         </div>
       </section>
@@ -130,7 +131,7 @@
         <input type="email" class="form-control email">
         <input type="text" class="form-control assunto">
         <textarea name="msg" class="form-control" cols="30" rows="10">Mensagem</textarea>
-        <button class="btn btn-primary">Enviar</button>
+        <button class="btn btn-primary ml-lg-3 rounded-pill btn-enviar">Enviar</button>
       </form>
     </div>
   </main>
