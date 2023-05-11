@@ -1,3 +1,10 @@
 HTML
-Header: 
-1-No canto superior esquerdo terá a logo da instituição seguida do texto "IMP-JFR" ("IMP-" a preto e )
+Header:
+Constituído por 2 elementos: O menu e o Banner 
+No menu:
+1-No canto superior esquerdo terá a logo da instituição seguida do texto "IMP-JFR" ("IMP-" a preto e "JFR" a azul)
+2- A seguir o nav bar no canto superior direitocom os seguintes elementos em ancora : Página inicial, Cursos, Pautas,Contacto e um botão azul "Comunicados"
+
+No Banner:
+1- Uma imagem da escola com uma película sombreada e o texto 'Intituto Politécnico Nº 22T "José Francisco Republicano" ' 
+2- 'Intituto Politécnico Nº 22T' em h1 e ' "José Francisco Republicano"  ' em h4
