@@ -57,21 +57,10 @@
           <div class="col-md-6">
             <img src="../public/escola.png" alt="Imagem da Instituição">
           </div>
-          <div class="col-md-6 expandable-text">
+          <div class="col-md-6">
             <h2>Sobre a Instituição</h2>
-            <div class="texto-retratil">
-              <p class="texto-curto">
-                O Instituto Médio Politécnico "José Francisco Republicano" é uma instituição de ensino técnico que oferece cursos em diversas áreas. Localizado em Namibe, Tômbwa, Bairro 08 de Dezembro, a escola tem como patrono José Francisco Republicano, um homem de trajetória inspiradora...
-              </p>
-              <p class="texto-longo">
-                O Instituto Médio Politécnico "José Francisco Republicano" é uma instituição de ensino técnico localizada em Namibe, Tômbwa, Bairro 08 de Dezembro. A escola oferece cursos em diversas áreas e tem como patrono José Francisco Republicano, um homem de trajetória inspiradora.
-
-                Fundado com o objetivo de proporcionar educação de qualidade e preparar os estudantes para o mercado de trabalho, o Instituto Médio Politécnico "José Francisco Republicano" busca promover o desenvolvimento acadêmico, profissional e pessoal dos seus alunos.
-
-                Com uma equipe dedicada de professores e funcionários, a instituição oferece uma variedade de cursos técnicos, proporcionando aos estudantes conhecimentos teóricos e práticos necessários para se destacarem em suas áreas de interesse.
-              </p>
-              <button class="ver-mais btn btn-primary rounded-pill">Ver mais</button>
-            </div>
+            <p>O Instituto Médio Politécnico "José Francisco Republicano" é uma instituição de ensino técnico que oferece cursos em diversas áreas. Localizado em Namibe, Tômbwa, Bairro 08 de Dezembro, a escola tem como patrono José Francisco Republicano, um homem de trajetória inspiradora...</p>
+            <a href="#" class="btn btn-primary rounded-pill">Ver mais</a>
           </div>
         </div>
       </section>
@@ -87,36 +76,32 @@
       <h2>Nossos Cursos</h2>
       <p>Nossos cursos técnicos oferecem conhecimentos práticos e equipe capacitada para impulsionar sua carreira. Descubra o curso certo para você e invista em seu futuro!</p>
       <section class="cards">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="card informatica">
-              <div class="card-body">
-                <p class="card-text descript">Curso Técnico de Informática <span>Coordenador: Pedro Chaquita Chiteculo</span></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="card energia">
-              <div class="card-body">
-                <p class="card-text descript">Curso Técnico de Energia e Intalações Eléctricas <span>Coordenador: Pedro Mulangui</span></p>
-              </div>
-            </div>
+        <div class="card informatica">
+          <img src="" alt="">
+          <div class="card-body">
+            <p><strong>Curso Técnico de Informática</strong></p>
+            <p>Coordenador: Pedro Chaquita Chiteculo</p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="card mecanica">
-              <div class="card-body">
-                <p class="card-text descript">Curso Técnico de Mecânica <span>Coordenador: Carlos Santana</span></p>
-              </div>
-            </div>
+        <div class="card energia">
+          <img src="" alt="">
+          <div class="card-body">
+            <p><strong>Curso Técnico de Energia e Intalações Eléctricas</strong></p>
+            <p>Coordenador: Pedro Mulangui</p> 
           </div>
-          <div class="col-md-6">
-            <div class="card renovaveis">
-              <div class="card-body">
-                <p class="card-text descript">Curso Técnico de Energias Renováveis <span>Coordenador: António Kapa</span></p>
-              </div>
-            </div>
+        </div>
+        <div class="card mecanica">
+          <img src="" alt="">
+          <div class="card-body">
+            <p><strong>Curso Técnico de Mecânica</strong> </p>
+            <p>Coordenador: Carlos Santana</p>
+          </div>
+        </div>
+        <div class="card renovaveis">
+          <img src="" alt="">
+          <div class="card-body">
+            <p><strong>Curso Técnico de Energias Renováveis</strong> </p>
+            <p>Coordenador: António Kapa</p>
           </div>
         </div>
       </section>
@@ -125,91 +110,90 @@
       <h2>Quem foi José F. Republicano?</h2>
       <section class="row">
         <div class="col-md-6">
-          <img src="" alt="">
+          <img src="../public/patrono.png" alt="Imagem de JFR">
         </div>
         <div class="col-md-6">
           <div class="text">
-            <p>José Francisco Republicano, nascido a 5 de Outubro de 1910, em Porto Alexandre, atualmente Tômbwa, Filho de José Inácio e de Delfina Helena, Pescador de Profissão. Até a sua morte em Junho de 2000, foi um ancião digno de referência e respeito pela sua trajetória de vida...</p>
-            <a href="#" class="btn btn-primary rounded-pill">Ver Galeria</a>
+            <p><strong>José Francisco Republicano</strong>, nascido a 5 de Outubro de 1910, em Porto Alexandre, atualmente Tômbwa, Filho de José Inácio e de Delfina Helena, Pescador de Profissão. Até a sua morte em Junho de 2000, foi um ancião digno de referência e respeito pela sua trajetória de vida...</p>
+            <a href="#" class="btn btn-primary rounded-pill">Ver mais</a>
           </div>
         </div>
       </section>
     </div>
-    <div class="container contacto">
+    <div class="contacto">
       <section>
         <h2>Entre em Contato</h2>
         <p>Entre em contato conosco para saber mais sobre as possibilidades de formação e carreira em nossa instituição.</p>
       </section>
       <form>
-        <input type="text" class="form-control nome">
-        <input type="email" class="form-control email">
-        <input type="text" class="form-control assunto">
-        <textarea name="msg" class="form-control" cols="30" rows="10">Mensagem</textarea>
-        <button class="btn btn-primary ml-lg-3 rounded-pill btn-enviar">Enviar</button>
+        <div><input type="text" class="form-control nome" placeholder="Nome"></div>
+        <div><input type="email" class="form-control email" placeholder="Email"></div>
+        <div><input type="text" class="form-control assunto" placeholder="Assunto (opcional)"></div>
+        <div><textarea name="msg" class="form-control" cols="30" rows="5">Mensagem</textarea></div>
+        <button class="btn btn-primary ml-lg-3 btn-enviar">Enviar</button>
       </form>
     </div>
   </main>
   
-  <footer>
-    <div class="container">
-      <div class="slogan">
-        <div class="logo">
-          <img src="../public/logo.png" alt="Logo da instituição">
-          <span class="institution-name">IMP-JFR</span>
-        </div>
+  <footer class="footer">
+    <div class="slogan">
+      <section class="logo">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="../public/logo.png" alt="Logo da instituição" class="mr-2">
+          <span class="institution-name font-weight-bold">IMP-</span>
+          <span class="institution-name text-primary font-weight-bold">JFR</span>
+        </a> 
         <p>Moldando o futuro com inovação e excelência.</p>
-        <div class="social">
-          <img src="" alt="facebook icon">
-          <span>/Instituto Politécnico JFR</span>
-        </div>
-      </div>
-      <div class="inicial">
-        <h3>Menu Inicial</h3>
-        <nav>
-          <ul>
-            <li><a href="">Página Inicial</a></li>
-            <li><a href="">Pautas</a></li>
-            <li><a href="">Cursos</a></li>
-            <li><a href="">Contactos</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div class="links">
-        <h3>Links Úteis</h3>
-        <nav>
-          <ul>
-            <li><a href="">Comunicados</a></li>
-            <li><a href="">Sobre</a></li>
-            <li><a href="">Galeria</a></li>
-            <li><a href="">Patrono</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div class="localizacao">
-        <h3>Contactos</h3>
+      </section>
+      <section class="social">
+        <img src="../public/facebook.png" alt="facebook icon" width="24px">
+        <span>/Instituto Politécnico JFR</span>
+      </section>
+    </div>
+    <div class="inicial">
+      <h3>Menu Inicial</h3>
+      <nav>
         <ul>
-          <li>
-            <strong>Endereço</strong>
-            <p>Namibe, Tômbwa, Bairro 8 de Dezembro</p>
-          </li>
-          <li>
-            <strong>Telefone</strong>
-            <p>+244 999 999 999</p>
-          </li>
-          <li>
-            <strong>Email</strong>
-            <p>Impt22t@gmail.com</p>
-          </li>
+          <li><a href="">Página Inicial</a></li>
+          <li><a href="">Pautas</a></li>
+          <li><a href="">Cursos</a></li>
+          <li><a href="">Contactos</a></li>
         </ul>
-      </div>
+      </nav>
+    </div>
+    <div class="links">
+      <h3>Links Úteis</h3>
+      <nav>
+        <ul>
+          <li><a href="">Comunicados</a></li>
+          <li><a href="">Sobre</a></li>
+          <li><a href="">Galeria</a></li>
+          <li><a href="">Patrono</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="localizacao">
+      <h3>Contactos</h3>
+      <ul>
+        <li>
+          <strong>Endereço</strong>
+          <p>Namibe, Tômbwa, Bairro 8 de Dezembro</p>
+        </li>
+        <li>
+          <strong>Telefone</strong>
+          <p>+244 999 999 999</p>
+        </li>
+        <li>
+          <strong>Email</strong>
+          <p>Impt22t@gmail.com</p>
+        </li>
+      </ul>
     </div>
   </footer> 
 
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-
-  <script src="./script.js"></script>
 </body>
 </html>
 

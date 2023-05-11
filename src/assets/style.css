@@ -11,11 +11,8 @@
   --white: #FFFFFF;
 }
 
-body{
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-  width: 100%;
+p {
+  color: var(--gray300);
 }
 
 .nav-link {
@@ -62,6 +59,7 @@ main {
   flex-direction: column;
   gap: 50px;
   width: 100%;
+  padding-top: 100px;
 }
 
 .galeria {
@@ -99,14 +97,140 @@ main {
   padding: 10px;
 }
 
+.cursos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2em;
+  align-items: center;
+  justify-content: center;;
+}
+
+.card {
+  width: 420px;
+}
+.card p {
+  color: var(--white)
+}
+.card strong {
+  font-size: 18px;
+}
+
+.card img{
+  background-color:var(--blue900);
+  width: 100%;
+  padding: 10px;
+  height: 300px;
+}
+.card-body {
+  background-color: rgba(0, 0, 0, 0.8); 
+  padding: 5px;
+  text-align: justify;
+}
+
+.patrono .row{
+  background-color: var(--blue200);
+  color: var(--white);
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
 
 .contacto {
   background-color: var(--gray900);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.contacto h2, .contacto p {
+  color: var(--white);
+  text-align: center;
+}
+
+.contacto form {
+  width: 50%;
+  padding-top: 50px;
+}
+
+.contacto div {
+  border-bottom: 3px solid var(--white);
+  margin-bottom: 10px;
+}
+
+.contacto input{
+  background-color: var(--gray900);
+  border-bottom: 5px var(--white);
+  border: none;
+}
+
+.contacto input::placeholder{
+  color: var(--white);
+}
+
+.contacto textarea {
+  background-color: var(--gray900);
+  color: white;
+  border: none;
 }
 
 .btn-enviar {
   background-color: var(--white);
   color: var(--black);
   padding: 12px 24px;
+  border-radius: 20px;
   border: none;
+  max-width: 150px;
+}
+
+footer {
+  background-color: var(--black);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
+  padding: 30px;
+}
+
+.footer div {
+  height: 200px;
+}
+
+.footer .logo p {
+  font-size: 20px;
+  max-width: 300px;
+}
+
+h3{
+  color: var(--white);
+  font-size: x-large;
+}
+
+.footer a, 
+.footer p, 
+.footer strong, 
+.footer span{
+  color: var(--white);
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
 }
