@@ -27,6 +27,7 @@ p {
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
+  margin-top: 30px;
 }
 .line-lft{
   display: flex;
@@ -34,6 +35,7 @@ p {
   align-items: flex-start;
   justify-content: center;
   margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .nav-link {
@@ -79,7 +81,7 @@ main {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .galeria {
@@ -260,4 +262,15 @@ h3{
   flex-direction: row;
   align-items: center;
   gap: 8px;
+}
+
+/*Login*/
+
+.login .enviar{
+  width: 100px;
+}
+
+/*Sobre*/
+.sobre{
+  margin-bottom: 50px;
 }
