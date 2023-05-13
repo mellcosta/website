@@ -87,6 +87,7 @@ main {
 .galeria {
   position: relative;
   margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 .galeria img {
@@ -124,8 +125,8 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 80px;
   text-align: center;
+  margin-bottom: 100px;
 }
 
 .cards {
@@ -147,7 +148,7 @@ main {
   font-size: 18px;
 }
 
-.card img{
+.cursos img{
   background-color:var(--blue900);
   width: 100%;
   padding: 10px;
@@ -273,4 +274,22 @@ h3{
 /*Sobre*/
 .sobre{
   margin-bottom: 50px;
+}
+
+/*Cursos*/
+.cursos .row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+
+.cursos h4 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/*Pautas*/
+.pautas h1{
+  padding: 30vh;
 }
