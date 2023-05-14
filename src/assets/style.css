@@ -298,3 +298,30 @@ h3{
 .comunicados h1{
   padding: 30vh;
 }
+
+/*Galeria*/
+.container-galeria {
+  margin-bottom: 100px;
+}
+
+.imagens-galeria h3 {
+  font-size: larger;
+  color: var(--gray300);
+  border-bottom: 3px solid var(--blue200) ;
+  margin-top: 80px;
+}
+
+.imagens-galeria img {
+  width: 400px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.modal-lg{
+  border: 5px solid var(--blue200);
+  border-radius: 10px;
+}
+
+.modal-footer .btn {
+  background-color:var(--blue400);
+}
