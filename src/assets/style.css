@@ -3,11 +3,12 @@
   --dark:#0F0E0E;
   --gray900:#242424;
   --gray300:#746F6F;
+  --gray100:#BFC7D8;
   --blue900:#091E32;
   --blue700:#093C70;
   --blue400:#1A61FB;
   --blue200:#87A9CB;
-  --blue100:#BFC7D8;
+  --blue100:#def7ff;
   --white: #FFFFFF;
 }
 
@@ -79,13 +80,11 @@ p {
 }
 
 .banner .element {
-  background-color: var(--blue200);
   height: 300px;
 }
 .light {
-  background-color: var(--blue200);
+  background-color: var(--blue400);
 }
-
 
 main {
   display: flex;
@@ -340,4 +339,116 @@ h3{
 
 .modal-footer .btn {
   background-color:var(--blue400);
+}
+
+/*Quadro de Honra*/
+
+.honra {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table {
+  width: 80%;
+  border-radius: 10px;
+}
+
+.table-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: var(--gray100);
+  border-radius: 10px 10px 0 0;
+  
+}
+
+.table-section {
+  height: 650px;
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  min-width: 1000px;
+  border-collapse: collapse;
+}
+
+thead th {
+  position: sticky;
+  background-color: #def7ff;
+  color: var(--gray300);
+  font-size: 18px;
+}
+
+th,td {
+  border-bottom: 1px solid var(--gray100);
+  word-break: break-all;
+  text-align: center;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+tr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+td {
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+}
+
+td img {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  border-radius: 15px;
+  border: 3px solid var(--blue200);
+}
+
+td p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+tr:hover td {
+  color: var(--blue400);
+  cursor: pointer;
+  background-color: var(--blue100);
+}
+
+.pagination {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  padding: 10px 20px;
+  margin-top: 50px;
+}
+
+.pagination div {
+  padding: 10px;
+  border: 2px solid var(--blue100);
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--blue400);
+  color: var(--white);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  margin: 0 5px;
+  font-weight: 600;
+  cursor: pointer;
 }
