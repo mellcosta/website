@@ -141,24 +141,25 @@ main {
 }
 
 .card {
-  width: 420px;
+  width: 350px;
+  height: 400px;
 }
 .card p {
-  color: var(--white)
+  color: var(--white);
+  font-size: 13px;
 }
 .card strong {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .cursos img{
-  background-color:var(--blue900);
   width: 100%;
   padding: 10px;
   height: 300px;
 }
 .card-body {
   background-color: rgba(0, 0, 0, 0.8); 
-  padding: 5px;
+  padding: 10px;
   text-align: justify;
 }
 
@@ -284,11 +285,16 @@ h3{
   align-items: center;
   justify-content: center;
   text-align: justify;
+  margin-bottom: 50px;
 }
 
 .cursos h4 {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.cursos .img-fluid{
+  width: 350px;
 }
 
 /*Pautas*/
