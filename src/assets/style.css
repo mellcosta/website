@@ -452,3 +452,13 @@ tr:hover td {
   font-weight: 600;
   cursor: pointer;
 }
+
+/*Pautas*/
+
+.apto{
+  color: red;
+}
+
+.napto{
+  color: green;
+}
