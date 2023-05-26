@@ -55,7 +55,7 @@ p {
 .banner img {
   display: block;
   width: 100%;
-  height: auto;
+  height: 60vh;
 }
 
 .overlay {
@@ -76,6 +76,14 @@ p {
 .overlay h1, .overlay h4 {
   margin: 0;
   padding: 10px;
+}
+
+.banner .element {
+  background-color: var(--blue200);
+  height: 300px;
+}
+.light {
+  background-color: var(--blue200);
 }
 
 
