@@ -365,7 +365,7 @@ h3{
 }
 
 .table-section {
-  height: 650px;
+  height: auto;
   overflow: auto;
 }
 
@@ -456,9 +456,13 @@ tr:hover td {
 /*Pautas*/
 
 .apto{
-  color: red;
+  color: green;
 }
 
 .napto{
-  color: green;
+  color: red;
+}
+
+.recurso{
+  color: var(--blue400);
 }
