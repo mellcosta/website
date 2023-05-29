@@ -172,16 +172,17 @@ main {
 
 .patrono {
   background-color: var(--blue200);
-  padding: 0vh 20vh 0vh 20vh;
+  padding: 20px;
 }
 
 .patrono .row{
   padding: 30px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
+  gap: 1em;
 }
 
 .patrono p{
@@ -355,13 +356,6 @@ h3{
   border-radius: 12px;
 }
 
-@media(max-width:800px) {
-  .news-content img{
-    width: 90%;
-  }
-}
-
-
 
 /*Galeria*/
 .container-galeria {
@@ -514,4 +508,43 @@ tr:hover td {
 
 .recurso{
   color: var(--blue400);
+}
+
+/* Responsividade */
+
+@media(max-width:800px) {
+  /* Home */
+  .banner img {
+    height: 40vh;
+  }
+
+  /* Sobre */
+  .sobre-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sobre-content {
+    padding: 20px;
+  }
+
+  /* Galeria */
+  .galeria h1 {
+    font-size: 20px;
+  }
+
+  /* Patrono */
+  .patrono {
+    padding: 10px;
+  }
+  .patrono .row{
+    flex-wrap: wrap;
+  }
+
+  /* Comunicados */
+  .news-content img{
+    width: 90%;
+  }
 }
