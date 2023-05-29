@@ -310,9 +310,58 @@ h3{
 }
 
 /*comunicados*/
-.comunicados h1{
-  padding: 30vh;
+
+.comunicados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
+.news{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+.news-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2em;
+  margin-top: 30px;
+  padding: 30px;
+  max-width: 200vh;
+  min-height: 40vh;
+  border: 2px solid var(--blue200);
+  border-radius: 20px;
+  background-color: var(--blue100);
+}
+
+
+.news-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  font-size: 18px;
+}
+
+.news-content img{
+  width: 60%;
+  border-radius: 12px;
+}
+
+@media(max-width:800px) {
+  .news-content img{
+    width: 90%;
+  }
+}
+
+
 
 /*Galeria*/
 .container-galeria {
